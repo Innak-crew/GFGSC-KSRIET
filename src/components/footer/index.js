@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="">
           <div className="flex items-center md:items-start justify-start flex-col">
             <h3 className="font-bold text-md mb-4 text-gray-600 dark:text-gray-200">
-              In collaboration with,
+              In collaboration with.,
             </h3>
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
