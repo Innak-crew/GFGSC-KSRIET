@@ -16,8 +16,8 @@ export const formSchema = yup.object().shape({
     .email()
     .required("College Email is required")
     .matches(
-      /@ksriet.ac.in$/,
-      "use your college email ( @ksriet.ac.in)"
+      /$/,
+      "use your college email."
     ),
 
   whatsappNumber: yup
