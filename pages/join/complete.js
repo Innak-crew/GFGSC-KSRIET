@@ -52,34 +52,16 @@ const Complete = () => {
 
 
     const batchOptionList = [
-        {value: "CSE A", label: "CSE A"},
-        {value: "CSE B", label: "CSE B"},
+        {value: "CSE", label: "CSE"},
         {value: "CSE AI", label: "CSE AI"},
         {value: "CSE DS", label: "CSE DS"},
-        {value: "CSE D", label: "CSE Design"},
-        {value: "AI DS", label: "AI DS"},
-        {value: "AI ML", label: "AI ML"},
-        {value: "IT A", label: "IT A"},
-        {value: "IT B", label: "IT B"},
-        {value: "IT C", label: "IT C"},
-        {value: "ECE A", label: "ECE A"},
-        {value: "ECE B", label: "ECE B"},
-        {value: "ECE C", label: "ECE C"},
-        {value: "EEE A", label: "EEE A"},
-        {value: "EEE B", label: "EEE B"},
-        {value: "EEE C", label: "EEE C"},
-        {value: "EE A", label: "EE A"},
-        {value: "EE B", label: "EE B"},
-        {value: "EE C", label: "EE C"},
-        {value: "EIE A", label: "EIE A"},
-        {value: "EIE B", label: "EIE B"},
-        {value: "EIE C", label: "EIE C"},
-        {value: "ME A", label: "ME A"},
-        {value: "ME B", label: "ME B"},
-        {value: "ME C", label: "ME C"},
-        {value: "CE A", label: "CE A"},
-        {value: "CE B", label: "CE B"},
-        {value: "CE C", label: "CE C"},
+        {value: "CSE CS", label: "CSE CS"},
+        {value: "IT", label: "IT"},
+        {value: "ECE", label: "ECE"},
+        {value: "EEE", label: "EEE"},
+        {value: "BME", label: "BME"},
+        {value: "MECH", label: "MECH"},
+        {value: "Others", label: "Others"},
     ];
 
     const {TextField, SelectField, TextareaField, TagField} = FormComponents; //Form Components
@@ -252,7 +234,6 @@ const Complete = () => {
                       <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-900 bg-gray-100">
                         <div className="space-y-2 col-span-full lg:col-span-1">
                           <p className="font-medium">About You</p>
-                          <p className="text-xs">Adipisci fuga autem eum!</p>
                         </div>
                         <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
                           <TextareaField
@@ -283,7 +264,6 @@ const Complete = () => {
                       <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-900 bg-gray-100">
                         <div className="space-y-2 col-span-full lg:col-span-1">
                           <p className="font-medium">Profiles</p>
-                          <p className="text-xs">Adipisci fuga autem eum!</p>
                         </div>
                         <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
                           <TextField
