@@ -13,6 +13,7 @@ import { useRouter } from "next/router";
 import {
   FaWhatsapp,
   FaDiscord,
+  FaLinkedin,
   FaInstagram,
   FaHammer,
   FaTimes,
@@ -126,7 +127,7 @@ const Join = () => {
                     className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       window.open(
-                        `https://chat.whatsapp.com/L8b1NWYkAj8Kf7G8mI1xGM`,
+                        `https://chat.whatsapp.com/HzIIttzA3y07hOvAdmZ4lJ`,
                         "__blank"
                       );
                     }}
@@ -136,7 +137,7 @@ const Join = () => {
                 </div>
               </div>
 
-              <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+              {/* <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
                 <div className="md:flex md:items-start md:-mx-4 ">
                   <span className="inline-block p-2 text-white bg-indigo-400 rounded-xl md:mx-4 dark:text-white dark:indigo-400">
                     <FaDiscord className="text-2xl" />
@@ -162,7 +163,7 @@ const Join = () => {
                     Join
                   </Button>
                 </div>
-              </div>
+              </div> */}
 
               <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
                 <div className="md:flex md:items-start md:-mx-4 ">
@@ -183,7 +184,34 @@ const Join = () => {
                     className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       window.open(
-                        `https://www.instagram.com/gfgsc-KSRIET`,
+                        `https://www.instagram.com/gfg_ksriet?igsh=cW1jemxldThzaHQy`,
+                        "__blank"
+                      );
+                    }}
+                  >
+                    Follow
+                  </Button>
+                </div>
+              </div>
+              <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+                <div className="md:flex md:items-start md:-mx-4 ">
+                  <span className="inline-block p-2 text-white bg-blue-400 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                    < FaLinkedin className="text-2xl" />
+                  </span>
+
+                  <div className=" mt-4 md:mx-4 md:mt-0">
+                    <h1 className="text-2xl font-medium text-gray-700 capitalize dark:text-white">
+                      LinkedIn Page
+                    </h1>
+                    <p className="mt-3 text-gray-500 dark:text-gray-300">
+                      Make sure to follow us on Linkedin to track our Activities and to know about the Exciting Events!
+                    </p>
+                  </div>
+                  <Button
+                    className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                    click={() => {
+                      window.open(
+                        `https://www.instagram.com/gfg_ksriet?igsh=cW1jemxldThzaHQy`,
                         "__blank"
                       );
                     }}
