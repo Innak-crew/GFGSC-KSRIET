@@ -37,6 +37,7 @@ const EventTab = ({loadEvent}) => {
     image: "",
     link: "",
     title: "",
+    regwhen: "",
     when: "",
     where: "",
     createdAt: new Date().toISOString(),
@@ -216,6 +217,8 @@ const EventTab = ({loadEvent}) => {
                     name="category"
                     options={[
                       { value: "Coding Event", label: "Coding Event" },
+                      { value: "Course", label: "Course" },
+                      { value: "Workshop", label: "Workshop" },
                       { value: "Job Event", label: "Job Event" },
                       { value: "Fun Event", label: "Fun Event" },
                       { value: "Miscs", label: "Miscs" },
@@ -232,7 +235,15 @@ const EventTab = ({loadEvent}) => {
                   />
                   <DateField
                     spanClass="col-span-full"
-                    label="Date & Time"
+                    label="Registration Last Date & Time"
+                    name="regwhen"
+                    id="regwhen"
+                    type="date"
+                    setFieldValue={setFieldValue}
+                  />
+                  <DateField
+                    spanClass="col-span-full"
+                    label="Event Date & Time"
                     name="when"
                     id="when"
                     type="date"
