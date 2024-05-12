@@ -24,9 +24,9 @@ const Home = () => {
                                 <div className="lg:max-w-lg mt-8">
                                     <div className="prose prose-stone dark:prose-invert">
                                         <h1 className="">
-                                            Official website of the <br/>
+                                            Welcome To Our <br/>
                                             <span className="text-green-700 dark:text-green-600 font-bold">
-                      GFGSC-KSRIET
+                      GeeksForGeeks Student Chapter KSRIET
                     </span>{" "}
                                         </h1>
 
@@ -36,26 +36,22 @@ const Home = () => {
                                             Science and want to make their career in this field. By
                                             joining a GeeksforGeeks student Chapter, students grow their
                                             knowledge in a peer-to-peer learning environment and build
-                                            effective and optimised solutions for local businesses and
-                                            their community. GeeksforGeeks Student Chapters will provide
-                                            students with various events and webinars on coding or
-                                            placements. Students may get internship opportunities at
-                                            GeeksforGeeks. Along with all this student can get exclusive
-                                            discounts on GFG courses. You will get an opportunity to
-                                            organize your competition on a PAN India level. It will help
-                                            students to grow a network among 145+ colleges.
+                                            effective and optimised solutions for local businesses and their community.
                                         </p>
+                                         <div className="mt-6 sm:-mx-2">
+                            <Button className="bg-green-700 hover:bg-green-600" click={() => {
+                                    router.push("/join");
+                                }}
+                            >
+                                JOIN NOW
+                            </Button>
+                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="flex items-center justify-center w-full my-6 lg:mt-0 lg:w-1/2">
-                                <iframe
-                                    className="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden"
-                                    src="https://www.youtube.com/embed/3gKvYR0P2F0"
-                                    title="Complete Interview Preparation to Crack Coding Interviews | GeeksforGeeks"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                ></iframe>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0gAMhAYvUr30Z39Xj8EcFdiWVqRFYXybYvke_gFlZNg&s" ></img>
                             </div>
                         </div>
                     </div>
@@ -64,9 +60,9 @@ const Home = () => {
                 <section className="bg-gray-900 dark:bg-white">
                     <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
                         <h2 className="text-3xl font-semibold tracking-tight dark:text-gray-700 sm:text-4xl text-white">
-                            Become the part of Geeks for Geeks Community <br/>
+                            Become the part of GeeksForGeeks Community<br/>
                             <span className="text-green-700 dark:text-green-600 font-bold uppercase">
-                GFG Student&nbsp;Chapter of&nbsp;KSRIET
+                GFG Student&nbsp;Chapter of&nbsp;KSR Institute For Engineering And Technology
               </span>{" "}
                         </h2>
 
