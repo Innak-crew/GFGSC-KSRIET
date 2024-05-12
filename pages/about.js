@@ -27,46 +27,29 @@ const About = () => {
               <span className="text-green-500">GFGSC-KSRIET</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              The GeeksForGeeks Student Chapter at KSRIET is a thriving community founded by Mr. A.S. Bose, a forward-thinking 3rd-year B.Tech IT student from the batch of 2021-2025, on December 13, 2023. Comprising a President, Vice President, and 11 core members from diverse domains, the chapter is dedicated to nurturing leadership and technical skills among its members. Through workshops, seminars, and collaborative projects, students explore the realms of technology and management, while fostering a culture of peer-to-peer learning and community engagement. The chapter serves as a dynamic platform for students to grow, learn, and thrive together, transcending boundaries and unlocking new opportunities for personal and professional development.
             </p>
           </div>
-          <iframe
-            title="intro video"
-            className="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden"
-            src="https://www.youtube.com/embed/yrEIbh-VKwo"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen=""
-          ></iframe>
-
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
             <InfoCard
-              title="Hello World!"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Provident ab nulla quod dignissimos vel non corrupti
-                                        doloribus voluptatum eveniet"
+              title="Founder"
+              description="This GFG Student Chapter has been Spearheaded by Mr. A.S. Bose, a visionary 3rd-year B.Tech IT student from the batch of 2021-2025, this chapter came into existence on December 13, 2023."
               icon={RiGlobalFill}
             />
             <InfoCard
-              title="Hello World!"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Provident ab nulla quod dignissimos vel non corrupti
-                                        doloribus voluptatum eveniet"
+              title="Objective"
+              description="GeeksForGeeks Student Chapter at KSRIET is a dynamic hub of learning and collaboration, founded with a vision to empower students with technical prowess and leadership acumen."
               icon={RiBookFill}
             />
             <InfoCard
-              title="Hello World!"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Provident ab nulla quod dignissimos vel non corrupti
-                                        doloribus voluptatum eveniet"
+              title="Roles"
+              description=" At the core of this chapter's structure are its dedicated roles, meticulously crafted to foster holistic development among its members. The President, Vice President, and 11 core members from diverse domains form the backbone of this organization. Each member brings unique expertise and perspective, enriching the collective learning experience."
               icon={RiUser3Fill}
             />
             <InfoCard
-              title="Hello World!"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Provident ab nulla quod dignissimos vel non corrupti"
+              title="Outcomes"
+              description="Through peer-to-peer learning and mentorship, members leverage collective wisdom to overcome challenges and unlock new frontiers of knowledge.
+              In essence, the GeeksForGeeks Student Chapter at KSRIET is not just a club; it's a vibrant ecosystem where students cultivate skills, forge lifelong connections, and embark on a transformative journey towards excellence."
               icon={RiMoneyEuroBoxFill}
             />
           </div>
