@@ -125,7 +125,7 @@ const Join = () => {
           Join{" "}
           <span
             className="text-green-600"
-            title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
+            title="Geeks for Geeks Student Club of KSR Institute For Engineering & Technology"
           >
             GFGSC-KSRIET
           </span>{" "}
