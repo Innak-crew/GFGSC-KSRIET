@@ -86,7 +86,7 @@ const Events = () => {
         <h1 className="px-6 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
           <span
             className="text-green-500"
-            title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
+            title="Geeks for Geeks Student Club of KSR Institute For Engineering & Technology"
           >
             Upcoming
           </span>{" "}
@@ -104,7 +104,7 @@ const Events = () => {
           <h1 className="py-6 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
             <span
               className="text-green-500"
-              title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
+              title="Geeks for Geeks Student Club of KSR Institute For Engineering & Technology"
             >
               Past
             </span>
