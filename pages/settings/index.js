@@ -60,7 +60,7 @@ const Settings = () => {
       name: "Manage Event",
       icon: <MdOutlineEditCalendar />,
       component: <ManageEventTab />,
-      allowTo: ["admin"],
+      allowTo: ["admin","Event Manager"],
     },
   ];
   const [isMounted, setMounted] = useState(false);
