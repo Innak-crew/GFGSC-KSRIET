@@ -211,7 +211,7 @@ const Join = () => {
                     className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       window.open(
-                        `https://www.instagram.com/gfg_ksriet?igsh=cW1jemxldThzaHQy`,
+                        `https://www.linkedin.com/company/gfg-student-chapter-ksriet/mycompany/`,
                         "__blank"
                       );
                     }}
