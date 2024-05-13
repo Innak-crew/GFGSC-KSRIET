@@ -53,10 +53,10 @@ const Footer = () => {
         </div>
         <div className="flex flex-col text-center mt-8 pt-8 md:pt-0 md:mt-0 ">
           <h2 className="text-4xl text-gray-700 dark:text-gray-200 font-bold">
-            Get. Set. Code.
+            Learn Code Grow
           </h2>
           <p className="text-sm">
-            Hone your coding skills with us and get a package of 43 Crores!
+            Learn Together , Grow Together !
           </p>
           <div className="flex space-x-4 justify-center items-center mt-4 underline">
             <Link
