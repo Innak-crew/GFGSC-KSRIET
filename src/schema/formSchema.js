@@ -36,38 +36,14 @@ export const formSchema = yup.object().shape({
   skills: yup.string().required("Any Skill, eg:Designing"),
 
   gfg: yup
-    .string()
-    .matches(
-        /^http(s?):\/\/auth.geeksforgeeks.org\/user\/[a-zA-Z0-9._-]+\/?$/i,
-      "Invalid Github Profile URL"
-    ).required("Geeks For Geeks Profile URL is required"),
-  github: yup
-    .string()
-    .matches(
-      /^(http(s?):\/\/)(www\.)?github\.([a-z])+\/([A-Za-z0-9._-]{1,})+\/?$/i,
-      "Invalid Github Profile URL"
-    ),
+    .string().required("Geeks For Geeks Profile URL is required"),
+  github: yup.string(),
 
-  linkedin: yup
-    .string()
-    .matches(
-      /^(http(s)?:\/\/)([\w]+\.)?linkedin\.com\/(pub|in|profile)\//gm,
-      "Invalid Linked In Profile URL"
-    ),
+  linkedin: yup.string(),
 
-  website: yup
-    .string()
-    .matches(
-      /^(https?\:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})(\/[\w]*)*$/,
-      "Invalid Linked In Profile URL"
-    ),
+  website: yup.string(),
 
-  instagram: yup
-    .string()
-    .matches(
-      /^(http(s?):\/\/)(www\.)?instagram\.([a-z])+\/([A-Za-z0-9._-]{1,})+\/?$/i,
-      "Invalid Instagram Profile URL"
-    ),
+  instagram: yup.string(),
 });
 
 export const adminUsereditformSchema = yup.object().shape({
@@ -81,12 +57,7 @@ export const adminUsereditformSchema = yup.object().shape({
 
   collegeEmail: yup
     .string()
-    .email()
-    .required("College Email is required")
-    .matches(
-      /@ksriet.ac.in$/,
-      "use your college email ( @ksriet.ac.in )"
-    ),
+    .email(),
 
   whatsappNumber: yup
     .string()
@@ -103,33 +74,13 @@ export const adminUsereditformSchema = yup.object().shape({
 
   skills: yup.string().required("Any Skill, eg:Designing"),
 
-  github: yup
-    .string()
-    .matches(
-      /^(http(s?):\/\/)(www\.)?github\.([a-z])+\/([A-Za-z0-9-]{1,})+\/?$/i,
-      "Invalid Github Profile URL"
-    ),
+  github: yup.string(),
 
-  linkedin: yup
-    .string()
-    .matches(
-      /^(http(s)?:\/\/)([\w]+\.)?linkedin\.com\/(pub|in|profile)\//gm,
-      "Invalid Linked In Profile URL"
-    ),
+  linkedin: yup.string(),
 
-  website: yup
-    .string()
-    .matches(
-      /^(https?\:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})(\/[\w]*)*$/,
-      "Invalid Linked In Profile URL"
-    ),
+  website: yup.string(),
 
-  instagram: yup
-    .string()
-    .matches(
-      /^(http(s?):\/\/)(www\.)?instagram\.([a-z])+\/([A-Za-z0-9._-]{1,})+\/?$/i,
-      "Invalid Instagram Profile URL"
-    ),
+  instagram: yup.string(),
 });
 
 export const eventFormSchema = yup.object().shape({
