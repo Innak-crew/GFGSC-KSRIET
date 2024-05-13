@@ -36,7 +36,7 @@ export const formSchema = yup.object().shape({
   skills: yup.string().required("Any Skill, eg:Designing"),
 
   gfg: yup
-    .string().required("Geeks For Geeks Profile URL is required"),
+    .string(),
   github: yup.string(),
 
   linkedin: yup.string(),
