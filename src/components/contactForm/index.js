@@ -53,36 +53,31 @@ const ContactForm = () => {
             />
           </svg>
 
-          <span className="mt-2">KSRIET, KP 2</span>
+          <span className="mt-2">KSRIET<br></br>KSR Kalvi nagar<br></br>Tiruchengode<br></br>Namakkal,637215</span>
         </a>
 
         <a
           rel="noreferrer"
           target="_blank"
-          href="tel:+918178592355"
+          href="https://www.linkedin.com/company/gfg-student-chapter-ksriet/mycompany/"
           className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-green-200 dark:hover:bg-green-600"
         >
-          <svg
-            className="w-5 h-5"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg>
 
-          <span className="mt-2">+91 81785 92355</span>
+          <span className="mt-2">GFG Student Chapter KSRIET</span>
         </a>
 
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://www.instagram.com/gfgsc-KSRIET"
+          href="https://www.instagram.com/gfg_ksriet?igsh=cW1jemxldThzaHQy"
           className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-green-200 dark:hover:bg-green-600"
         >
           <FaInstagram  className="text-lg"/>
 
-          <span className="mt-2">gfgsc-KSRIET</span>
+          <span className="mt-2">GFGSC-KSRIET</span>
         </a>
       </div>
 
