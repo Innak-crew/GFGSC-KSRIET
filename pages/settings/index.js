@@ -52,7 +52,7 @@ const Settings = () => {
       name: "Add Event",
       icon: <FaCalendar />,
       component: <EventTab />,
-      allowTo: ["admin"],
+      allowTo: ["admin","eventManager"],
     },
     {
       id: 3,
